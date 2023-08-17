@@ -1,0 +1,8 @@
+name: Test App
+on: pull_request
+
+jobs:
+  workflows:
+    - name: My First Reviewpad Workflow
+      run:
+        - $addLabel("hello world")
